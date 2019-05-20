@@ -15,6 +15,7 @@ click-completion==0.3.1
 colorama==0.3.9
 cookiecutter==1.6.0
 cryptography==2.6.1
+docker==4.0.1
 entrypoints==0.3
 fasteners==0.14.1
 flake8==3.7.7
@@ -45,6 +46,7 @@ python-gilt==1.2.1
 PyYAML==3.13
 requests==2.22.0
 ruamel.yaml==0.15.96
+selinux==0.1.4
 sh==1.12.14
 six==1.11.0
 tabulate==0.8.2
@@ -52,5 +54,6 @@ testinfra==1.19.0
 tree-format==0.1.2
 urllib3==1.25.2
 wcwidth==0.1.7
+websocket-client==0.56.0
 whichcraft==0.5.2
 yamllint==1.15.0
