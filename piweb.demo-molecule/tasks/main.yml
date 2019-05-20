@@ -1,2 +1,11 @@
 ---
 # tasks file for piweb.demo-molecule
+- name: Install httpd
+  yum:
+    name: httpd
+    state: installed
+- name: Enable and start httpd
+  service:
+    name: httpd
+    state: started
+    enabled: yes
