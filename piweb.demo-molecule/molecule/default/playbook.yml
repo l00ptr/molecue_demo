@@ -1,5 +1,10 @@
 ---
 - name: Converge
   hosts: all
+  pre_tasks:
+    - name: install ss
+      yum:
+        name: net-tools
+        state: installed
   roles:
     - role: piweb.demo-molecule
